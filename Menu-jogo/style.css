@@ -1,0 +1,172 @@
+@keyframes mexer01{
+    0%{
+        top: 5%;
+        left: 5%;
+    }
+    50%{
+        top: 20%;
+        left: 10%;
+    }
+    100%{
+        top: 5%;
+        left: 5%;
+    }
+}
+@keyframes mexer02{
+    0%{
+        left: 80%;
+    }
+    50%{
+        left: 60%;
+    }
+    100%{
+        left: 80%;
+    }
+}
+@keyframes mexer03{
+    0%{
+        top: 150px;
+        left: 38%;
+    }
+    50%{
+        top: 150px;
+        left: 18%;
+    }
+    100%{
+        top: 150px;
+        left: 38%;
+    }
+}
+@keyframes mexer04{
+    0%{
+        top: 0px;
+        left: 65%;
+    }
+    50%{
+        top: 0px;
+        left: 85%;
+    }
+    100%{
+        top: 0px;
+        left: 65%;
+    }
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+    100%{
+        opacity: 1;
+        transform: rotate(360deg);
+    }
+}
+body{
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Black Ops One', cursive;
+}
+.principal{
+    margin: 0;
+    width: 100%;
+    height: 768px;
+    background-color: #171717;
+    color: white;
+}
+.titulo{
+    font-size: 80px;
+    top: 5%;
+    left: 42%;
+    position: relative;
+    animation-name: aparecer;
+    animation-duration: 5s;
+}
+.titulo02{
+    position: relative;
+    font-size: 80px;
+    left: 41%;
+    top: 15px;
+    animation-name: aparecer;
+    animation-duration: 5s;
+}
+.iniciar{
+    cursor: pointer;
+    font-size: 30px;
+    position: relative;
+    top: 21%;
+    left: 48%;
+    animation-name: aparecer;
+    animation-duration: 5s;
+}
+.score{
+    cursor: pointer;
+    font-size: 30px;
+    position: relative;
+    top: 22%;
+    left: 44.5%;
+    animation-name: aparecer;
+    animation-duration: 5s;
+}
+.config{
+    cursor: pointer;
+    font-size: 30px;
+    position: relative;
+    top: 23%;
+    left: 43.5%;
+    animation-name: aparecer;
+    animation-duration: 5s;
+}
+.setings{
+    cursor: pointer;
+    font-size: 30px;
+    position: relative;
+    top: 24%;
+    left: 46%;
+    animation-name: aparecer;
+    animation-duration: 5s;
+}
+.iniciar:hover, .score:hover, .config:hover, .setings:hover{
+    text-shadow: 3px 3px 3px white;
+}
+.lualaranja{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 5%;
+    left: 5%;
+    animation-name: mexer01;
+    animation-duration: 5s;
+    animation-iteration-count: 100000;
+}
+.solaranja{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 80%;
+    animation-name: mexer02;
+    animation-duration: 5s;
+    animation-iteration-count: 100000;
+}
+.planetaroxo{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 150px;
+    left: 38%;
+    animation-name: mexer03;
+    animation-duration: 5s;
+    animation-iteration-count: 100000;
+}
+.estrelinhas{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.luafoda{
+    position: absolute;
+    top: 0px;
+    left: 65%;
+    animation-name: mexer04;
+    animation-duration: 5s;
+    animation-iteration-count: 100000;
+}
