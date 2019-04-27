@@ -13,8 +13,8 @@
 
         <div class="titulo">Space</div>
         <div class="titulo02">Impact</div>
-        <div class="iniciar">Iniciar</div>
-        <div class="score">Pontuação: 0</div>
+        <div class="iniciar" href="javascript: iniciarJogo()">Iniciar</div>
+        <div class="score" id="postar_pontuacao" href="javascript: postarpontuacao()">Pontuação: 0</div>
         <div class="config">Configurações</div>
         <div class="setings">Instruções</div>
         <img class="lualaranja" src="img/1.png">
@@ -24,5 +24,21 @@
         <img class="luafoda" src="img/4.png">
 
     </div>
+    
+    <canvas class="canvas_animacao" width="600px" height="100vh">
+        este navegador não suporta canvas
+    </canvas>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="animacao.js"></script>
+    <script type="text/javascript" src="teclado.js"></script>
+    <script type="text/javascript" src="colisor.js"></script>
+    <script type="text/javascript" src="fundo.js"></script>
+    <script type="text/javascript" src="nave.js"></script>
+    <script type="text/javascript" src="ovni.js"></script>
+    <script type="text/javascript" src="tiro.js"></script>
+    <script type="text/javascript" src="spritesheet.js"></script>
+    <script type="text/javascript" src="explosao.js"></script>
+    <script type="text/javascript" src="painel.js"></script>
 </body>
 </html>
