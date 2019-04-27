@@ -76,7 +76,7 @@ body{
 .titulo{
     font-size: 80px;
     top: 5%;
-    left: 42%;
+    left: 38%;
     position: relative;
     animation-name: aparecer;
     animation-duration: 5s;
@@ -84,7 +84,7 @@ body{
 .titulo02{
     position: relative;
     font-size: 80px;
-    left: 41%;
+    left: 37%;
     top: 15px;
     animation-name: aparecer;
     animation-duration: 5s;
@@ -94,7 +94,7 @@ body{
     font-size: 30px;
     position: relative;
     top: 21%;
-    left: 48%;
+    left: 44%;
     animation-name: aparecer;
     animation-duration: 5s;
 }
@@ -103,7 +103,7 @@ body{
     font-size: 30px;
     position: relative;
     top: 22%;
-    left: 44.5%;
+    left: 40.5%;
     animation-name: aparecer;
     animation-duration: 5s;
 }
@@ -112,7 +112,7 @@ body{
     font-size: 30px;
     position: relative;
     top: 23%;
-    left: 43.5%;
+    left: 39.5%;
     animation-name: aparecer;
     animation-duration: 5s;
 }
@@ -121,7 +121,7 @@ body{
     font-size: 30px;
     position: relative;
     top: 24%;
-    left: 46%;
+    left: 42%;
     animation-name: aparecer;
     animation-duration: 5s;
 }
