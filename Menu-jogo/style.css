@@ -71,15 +71,15 @@ body{
     width: 100%;
     height: 768px;
     background-color: #171717;
-    color: white;
+    color: yellow;
 }
 .titulo{
-    font-size: 80px;
+    font-size: 85px;
     top: 5%;
     left: 42%;
     position: relative;
     animation-name: aparecer;
-    animation-duration: 5s;
+    animation-duration: 6s;
 }
 .titulo02{
     position: relative;
