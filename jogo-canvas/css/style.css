@@ -2,8 +2,8 @@ body{
     margin: 0;
 }
 .principal{
-    width: 100% !important;
+    width: 100vw !important;
     height: 768px !important;
-    background-color: #171717 !important;
+    background-color: #000 !important;
 }
 
